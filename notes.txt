@@ -5,7 +5,7 @@
 <MarketBehavior>Software markets tend to eventually create monopolies, that is to say that the first firm to gain a sufficiently large competitive advantage will usually eventually eradicate it's competition.\autocite[4]{buxmann2012software}
 <EarlyHistory,Microsoft>Microsoft is a good example of a company that quickly rose to monopolistic heights with ms-dos, coming to almost completely dominate the desktop market.\autocite[4]{buxmann2012software}
 <MarketCharacteristics,MarketShare>\autocite[]{buxmann2012software}
-<TypesOfSoftware>\wrapfig{marketShareOfTypesOfSoftare}{r}{.5}{Market share of software types\autocite[7]{buxmann2012software}}
+<TypesOfSoftware>\wrapfig{marketShareOfTypesOfSoftware}{r}{.5}{Market share of software types\autocite[7]{buxmann2012software}}
 <ServiceProviders>The computer service and support industry is heavily dependent upon the relationship of trust between the service provider and the consumer, who usually have to base their decision of of references.\autocite[9]{buxmann2012software}
 <BusinessModels,EarlyHistory>The industry began to make a shift to standardized software early on as producers tried to take advantage of their negligible variable costs.\autocite[14]{buxmann2012software}
 <EarlyHistory,BusinessModels,Oracle,SAP>Oracle is a well known provider of system software, and SAP is popular for application software. The business model of these standards software providers is usually to sell licenses which charge the customer proportional to some metric of usage\autocite[14]{buxmann2012software}
@@ -23,7 +23,7 @@
 <NetworkEffects,ValueChain,Platform,MarketBehavior>\wrapfig{valueChain}{r}{.5}{Value chain in the game console industry\autocite[29]{buxmann2012software}}
 <NetworkEffects,ValueChain,MarketBehavior>Game consoles are platforms, and are in this sense analogous to operating systems upon which applications are built. These platform providers do not generally have the resources breadth or flexibility to provide a large ecosystem of software on their own, and instead choose to open up the platform to third party software.\autocite[30]{buxmann2012software}
 <TransactionTheory,MarketBehavior>Their is a field of economics called transaction theory that deals with the costs involved in transactions between different organizations. Since the software business is ultimately defined by the division of labor between software providers and consumers their should theoretically exist substantial benefits to organizational structures that minimize transaction costs.\autocite[42]{buxmann2012software}
-<TransactionTheory,MarketBehavior>\wrapfig{transactionTheorty}{r}{.5}{Basic model of transaction cost theory\autocite[43]{buxmann2012software}}
+<TransactionTheory,MarketBehavior>\wrapfig{transactionTheory}{r}{.5}{Basic model of transaction cost theory\autocite[43]{buxmann2012software}}
 <TransactionTheory>Transactions can be classified along a spectron according to how specific they are to particular investments. Markets are the most efficient tool to optimize transaction costs in situations where the specificity of the transactions is low. On the other hand more specific investments where the transaction partners are more interdependent encourage more opportunistic behavior as the parties have greater incentive to try to exploit each other.\autocite[44]{buxmann2012software}
 <TransactionTheory,MarketBehavior>\wrapfig{decisionMatrix}{r}{.5}{Decision matrix of IT outsourcing\autocite[45]{buxmann2012software}}
 <TransactionTheory,MarketBehavior>The shift towards the internet and IP-based services has had the effect of lowering transaction costs, therefore encouraging standardization of software from dedicated providers rather than homegrown solutions.\autocite[46]{buxmann2012software}
@@ -36,7 +36,7 @@
 <Industry,Statistics>\fig{industryEstablishments}{h}{.8}{Industry establishments, sales \& employment trends\autocite[7]{SoftwarePublishing2016}}
 <Industry,Statistics>\fig{industryPayroll}{h}{.8}{Establishments, firms \& payroll\autocite[7]{SoftwarePublishing2016}}
 <MarketCharacteristics,Statistics>\wrapfig{ITMarketCap}{r}{.5}{Market capitalization data\autocite[6]{SurveysSoftware2015}}
-<Statistics,OpenSource>\wrapfig{KernelDevelopment}{r}{0.5}{Top contributers to the 4.3 Linux Kernel\autocite[]{KernelDevelopment2015}
+<Statistics,OpenSource>\wrapfig{kernelDevelopment}{r}{0.5}{Top contributers to the 4.3 Linux Kernel\autocite[]{KernelDevelopment2015}}
 <Satistics,MarketCharacteristics>\fig{ITSpending}{h}{.8}{IT spending\autocite[]{SurveysSoftware2015}}
 <MarketCharacteristics,Statistics>\wrapfig{softwareIndustryMarketCap}{r}{.5}{Market capitalization data\autocite[21]{SurveysSoftware2015}}
 <Statistics,Valuation,MarketCharateristics>The price earnings ratio of the software industry is a above it's historical average but bellow the S\&P  1500's average.\autocite[17]{SurveysSoftware2015}
@@ -55,7 +55,46 @@
 <MarketCharacteristics,ERP>Enterprise resource management is another important sector of the software industry including business focused upon managing accounting, payroll, and human capital.\autocite[46]{SurveysSoftware2015}
 <Internet,Network,Cloud>The internet has grown dramatically over the past years, which has helped enable many of the most important transitions within the industry including the shift towards cloud based services and the proliferation of open-source software.\autocite[]{SurveysSoftware2015}
 <OpenSource>Work by individual contributors to the Linux kernel is at an all time low with only 5.8% of the changes coming from unpaid volunteers.\autocite[]{KernelDevelopment2015}
-<>\autocite[]{SurveysSoftware2015}
-<>\autocite[]{SurveysSoftware2015}
-<>\autocite[]{SurveysSoftware2015}
-<>\autocite[]{SurveysSoftware2015}
+<MarketCharacteristics>\autocite[]{SurveysSoftware2015}
+<History,MarketCharacteristics>From 1997 to 2000 there was a buying frenzy in the business software industry as the Y2K panic drove greater investment in enterprise software.\autocite[]{AftermathOfIntegratedStack}
+<History,MarketCharacteristics>This enthusiasitic purchasing diminshed somewhat as business struggled to integrate and make effective use of their investments.\autocite[]{AftermathOfIntegratedStack}
+<History,MarketCharacteristics>Enterprise software has had a substantial impact upon business over the past few years as these integration efforts have begun to pay off. Retail for example has seen historically low inventories and fewer seasonal hires, arguably as a result efficiencies gained through the effective use of enterprise resource management software. \autocite[]{AftermathOfIntegratedStack}
+<IntegratedStacks>Companies have now shifted towards what are called integrated stacks, software packages that combine as many of the essentially components of the computer system's architecture as possible. Combining diverse tools into a single product that unifies hardware, middleware, virtualization layer, operating system, and enterprise applications.\autocite[]{AftermathOfIntegratedStack}
+<Cloud>Cloud computing is really just a model of renting storage and processing time to clients.\autocite[]{AftermathOfIntegratedStack}
+<Cloud>The real advantage of cloud computing is that the host can take advantage of far greater economies of scale than their individual clients could on their own, pushing down costs dramatically.\autocite[]{AftermathOfIntegratedStack}
+<IntegratedStacks>Integrated stacks can lower the cost of deploying new enterprise software solutions, whereas in the past most of the expense involved in deploying new software was actually in having internal IT departments integrate all of the diverse tools and platforms integrated stacks can be purchased deployed and maintained quickly and cheaply.\autocite[]{AftermathOfIntegratedStack}
+<Cloud>Cloud service providers also integrate their own tools into their offerings to help their costumers use and manage their cloud resources.\autocite[]{AftermathOfIntegratedStack}
+<MarketBehavior>There is a growing shift towards more ``transparent'' IT solutions which try to hide from the end user with more embedded and cloud based applications.\autocite[]{OptimismInnovation}
+<Cloud>Microsoft's emphasis on their Azure cloud platform represents a major shift for the company as it tries to push its way into a into an already competitive and crowded field.\autocite[]{OptimismInnovation}
+<OpenSource>Red Hat is another interesting player given that they have long been at the center of the open source movement and have managed to act like a sort of curator for open source technology.\autocite[]{OptimismInnovation}
+<OpenSource>There were almost one billion lines of source code released publicly and freely available online in 2010.\autocite[]{OptimismInnovation}
+<OpenSource>Red Hat has built there entire business around software that can be freely copied by their competitors, and as a result has minimal switching costs. Yet Red Hat's revenues continue to grow considerably faster than overall IT spending.\autocite[]{OptimismInnovation}
+<OpenSource>Some industry analysts believe that the open source development process ultimately leads to better code than proprietary alternatives.\autocite[]{OptimismInnovation}
+<MarketCharacteristics,SaaS>Software as a service is growing component of the software industry and holds several key advantages over more traditional sales models, most importantly in terms of cost and ease of deployment.\autocite[]{GrowthTrendsSoftwareService}
+<MarketCharacteristics,SaaS>The industry has made a significant transition towards the software as a service.\autocite[]{TransitionPhaseEnterpriseApplication}
+<MarketCharacteristics,SaaS>Analysts argues that although investor interest in the software as a service sector has declined recently their still exist plenty of opportunities for growth and consolidation.\autocite[]{GrowthTrendsSoftwareService}
+<EarlyHistory>Historically computing was dominated by mainframes like those sold and supported by IBM; in this model all the actual computing is carried out in central processors and the access points to control the computers were dumb terminals.\autocite[]{LargeParadigmShiftCloudComputing}
+<EarlyHistory>The personal computer broke this model and pushed most of the industry towards the client/server architecture where much of the processing takes place directly on the users terminal.\autocite[]{LargeParadigmShiftCloudComputing}
+<History,Cloud>In many regards cloud computing is a return to more of a dumb terminal paradigm where most of the actual processing takes place in remote data centers rather than on the user's workstation.\autocite[]{LargeParadigmShiftCloudComputing}
+<Cloud,Virtualiztion>Virtualization is another important technology that has begun to play a significant role over the past few tears.\autocite[]{LargeParadigmShiftCloudComputing}
+<Virtualiztion,Cloud>Virtualization allows multiple operating systems and software stacks to be hosted upon a server by introducing a layer of abstraction between the operating systems and the raw hardware of the host machine.\autocite[]{LargeParadigmShiftCloudComputing}
+<MarketBehavior>The nature of the Software industry is to tend towards greater consolidation.\autocite[]{LargeParadigmShiftCloudComputing}
+Small companies are often able to get off to a strong start due to venture capital but they are often bought up by their larger rivals once they have grown to the point where they can begin to make themselves a nuisance. \autocite[]{LargeParadigmShiftCloudComputing}
+<IOT>The internet of things is development in the software industry that has captured the attention of analysts.\autocite[]{LargeParadigmShiftCloudComputing}
+<IOT>The core idea of the internet of things is that as computers grow ever more inexpensive and networking ever easier and abundant it will be possible to connect almost every conceivable device to the internet in order to harvest data and automate as many processes as possible.\autocite[]{LargeParadigmShiftCloudComputing}
+<Cloud,SaaS>Salesforce.com is an important player in the cloud computing business as it has managed to grow into the largest cloud software company in the world following a successful software as a service model.\autocite[]{CloudAnalyticsCybersecurityApplication}
+<MarketCharacetristics>Overall IT spending has been growing at an annual rate of about 2-3\%, while cloud-based software, big data analytics, and cybersecurity are expected to remain growth areas.\autocite[]{CloudAnalyticsCybersecurityApplication}
+<Payments>Digital payment technologies are another interesting area of recent innovation with companies like square processing bringing credit card processing capacities to small businesses that could not otherwise afford them.\autocite[]{CloudAnalyticsCybersecurityApplication}
+<Payments>More established companies have also begun to tack towards mobile payments, such Alphabet with Google Wallet and Apple  with Apple Pay.\autocite[]{CloudAnalyticsCybersecurityApplication}
+<OpenSource,Cloud>Microsoft and Red Hat have reached an agreement to bring Red Hat's enterprise Linux operating system to the Microsoft Azure cloud.\autocite[]{MSRHTDeal}
+<OpenSource,Cloud>Microsoft plans to market Red Hat Linux as the ``preferred'' option for enterprise-level customers using the Azure platform with both companies collaborating to provide support.\autocite[]{MSRHTDeal}
+<OpenSource,Cloud>The move towards the \autocite[]{MSRHTDeal}
+<OpenSource,Cloud>\autocite[]{MSRHTDeal}
+<OpenSource,Cloud>\autocite[]{MSRHTDeal}
+<OpenSource,Cloud>\autocite[]{MSRHTDeal}
+<OpenSource,Cloud>\autocite[]{MSRHTDeal}
+
+
+Undone:
+<>\autocite[]{NextGenBusinessSoftware}
+<>\autocite[]{HorizontalPlaysTechnology}
