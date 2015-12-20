@@ -117,7 +117,50 @@ Small companies are often able to get off to a strong start due to venture capit
 <Analytics,General>Naturaly privacy is a big concern, but many modern technology platforms operate upon the assumption that the user doesn't care about privacy at all. Services like free email, cloud storage, and social networking almost invariably require the end user to give up any real expectation of privacy. Moreover many of these business are directly dependent upon gathering their users data in order to turn a profit.\autocite[]{NextGenBusinessSoftware}
 <Cloud,General>Microsoft is currently encouraging users to shift from Office  to Office 365, their cloud based alternative.\autocite[]{NextGenBusinessSoftware}
 <Cloud>Vmware is another signficant player in the data-center business. Their focus being upon virtualization technologies that are becoming an increasing common in these sorts of environments.\autocite[]{NextGenBusinessSoftware}
+<Government>The government has made efforts to curb the export of technology deamed to be of use to potential enemies of the state, the basic argument is that trade in modern software is the 21st century equivalent of the arms trade.\autocite[]{HeatsUpSurveillance}
+<Government,Privacy>The commerce Department proposed new licensing regulations in May for software that can be useful in surveillance. This of course raised fears about the vague nature of the proposal given that a great quantity of software can have some sort of dual purpose.\autocite[]{HeatsUpSurveillance}
+<Cloud,Amazon,Oracle>Oracle has decided not follow Amazon in offering raw computing and data storage services. Oracle co-CEO Mark Hurd claimed that the decision was based upon the low margins of raw services like Amazon's.\autocite[]{OracleCloudNotAWS}
+<Oracle>Oracle has a tremendous sales force with roughly 30,000 employees all over the globe in order to attract customers.\autocite[]{OracleCloudNotAWS}
+<Cloud,Amazon,Oracle,SAP>Amazon has not yet invested in trying to develop enterprise applications hosted on its own cloud infrastructure. However both SAP and Oracle have begun to ramp up their cloud based services with choosing to build on top of the AWS platform.\autocite[]{OracleCloudNotAWS}
+<Cloud,Amazon,Oracle>Oracle largely missed the bus in the cloud hosting business given that it would likely cost billions of dollars to acquire the talent, resources, and know-how in order to compete with the current industry leaders.\autocite[]{OracleCloudNotAWS}
+<OpenSource>The family of operating systems commonly referred to as Linux trace much of their roots back to the GNU project, started by Richard Stallman in 1983 with his essay the GNU manifesto.\autocite[]{GNUManifesto}
+<OpenSource>In it Stallman declared his intention to create a free operating system denouncing the current trend towards proprietary software development which he believed to be unethical.\autocite[]{GNUManifesto}
+<OpenSource>The system was to be modeled upon and compatible with the older UNIX, but built up entirely of freely licensed software(GNU is actually a recursive acronym sanding for GNU is Not Unix).\autocite[]{GNUManifesto}
+<Privacy,Government>One of the most significant and talked about aspects of government regulation of the software industry pertains to encryption and concerns about national security in light of current terrorist threats.\autocite[]{TerroristData}
+<Privacy,Government>The software industry remains strongly against regulating encryption, at least in public, in light of the public concerns about government spying.\autocite[]{TerroristData}
+<Privacy,Government>It is also obvious that simply banning encryption outright would be be as disastrous as passing legislation against roads.\autocite[]{TerroristData}
+<Privacy,Government>Privacy concerns are particularly contentious when issues of national borders are brought up. The recent Snowden revelations in particular have prompted interest in trying to keep data currently in data centers outside of the United States from being sent back the US, and presumably to the NSA as well.\autocite[]{OffMyCloud}
+<>\autocite[]{}
+<>\autocite[]{}
+<>\autocite[]{}
+
 
 
 Undone:
 <>\autocite[]{HorizontalPlaysTechnology}
+
+
+Outline:
+-Intro
+    -Statistics on the size of the software industry
+    -General information
+    -Current nature and importance of the industry
+    -Major players and backgrounds
+        -Oracle
+        -SAP
+        -Microsoft
+        -Open Source
+        -Amazon
+    -
+-Historical Background
+    -Prehistory (unified software and hardware)
+    -Open source movements historical claims
+    -Early development of companies like Microsoft and Oracle
+    -Market tendency towards consolidation
+    -Rise of the internet
+    -Current trends towards cloud computing
+-Competition and Competitive Outlook
+-Government Involvement
+-Industry Fundamentals
+-Conclusion
+
