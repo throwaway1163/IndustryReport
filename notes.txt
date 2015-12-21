@@ -130,9 +130,23 @@ Small companies are often able to get off to a strong start due to venture capit
 <Privacy,Government>The software industry remains strongly against regulating encryption, at least in public, in light of the public concerns about government spying.\autocite[]{TerroristData}
 <Privacy,Government>It is also obvious that simply banning encryption outright would be be as disastrous as passing legislation against roads.\autocite[]{TerroristData}
 <Privacy,Government>Privacy concerns are particularly contentious when issues of national borders are brought up. The recent Snowden revelations in particular have prompted interest in trying to keep data currently in data centers outside of the United States from being sent back the US, and presumably to the NSA as well.\autocite[]{OffMyCloud}
-<>\autocite[]{}
-<>\autocite[]{}
-<>\autocite[]{}
+<EarlyHistory,Oracle,LarryEllison>Larry Ellison started Software Development Laboratories, Inc. in 1977 with his partners Robert Miner and Edward Oates.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>They changed the company name to Relational Software, Inc. and then to Oracle.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle was one of the first companies to begin selling relational database management systems, two years before IBM introduced their own systems.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle's profitability grew rapidly and by 1982 the company had 24 employees and \$2.5 million annual revenue.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle went public in 1986 and Oracle reached revenue of \$55 million.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>In 1990 Oracle began to post losses and saw its market capitalization fall by 80\%.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Ellison refocused the company, fired many of the senior managers and replaced them with more experienced hires while he focused more upon product development.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>The Oracle 7 database management system released in 1992 took the industry by storm as Oracle's profits shot up by 76\% within a single quarter.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle grew rapidly and began to acquire many other business software vendors, spending more than \$25 billion in just 36 months.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>The software industry was labour intensie with an emphasis with an emp\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
 
 
 
