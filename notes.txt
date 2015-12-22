@@ -130,29 +130,68 @@ Small companies are often able to get off to a strong start due to venture capit
 <Privacy,Government>The software industry remains strongly against regulating encryption, at least in public, in light of the public concerns about government spying.\autocite[]{TerroristData}
 <Privacy,Government>It is also obvious that simply banning encryption outright would be be as disastrous as passing legislation against roads.\autocite[]{TerroristData}
 <Privacy,Government>Privacy concerns are particularly contentious when issues of national borders are brought up. The recent Snowden revelations in particular have prompted interest in trying to keep data currently in data centers outside of the United States from being sent back the US, and presumably to the NSA as well.\autocite[]{OffMyCloud}
-<EarlyHistory,Oracle,LarryEllison>Larry Ellison started Software Development Laboratories, Inc. in 1977 with his partners Robert Miner and Edward Oates.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>They changed the company name to Relational Software, Inc. and then to Oracle.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>Oracle was one of the first companies to begin selling relational database management systems, two years before IBM introduced their own systems.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>Oracle's profitability grew rapidly and by 1982 the company had 24 employees and \$2.5 million annual revenue.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>Oracle went public in 1986 and Oracle reached revenue of \$55 million.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>In 1990 Oracle began to post losses and saw its market capitalization fall by 80\%.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>Ellison refocused the company, fired many of the senior managers and replaced them with more experienced hires while he focused more upon product development.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>The Oracle 7 database management system released in 1992 took the industry by storm as Oracle's profits shot up by 76\% within a single quarter.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>Oracle grew rapidly and began to acquire many other business software vendors, spending more than \$25 billion in just 36 months.\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>The software industry was labour intensie with an emphasis with an emp\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
-<EarlyHistory,Oracle,LarryEllison>\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Larry Ellison started Software Development Laboratories, Inc. in 1977 with his partners Robert Miner and Edward Oates.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>They changed the company name to Relational Software, Inc. and then to Oracle.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle was one of the first companies to begin selling relational database management systems, two years before IBM introduced their own systems.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle's profitability grew rapidly and by 1982 the company had 24 employees and \$2.5 million annual revenue.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle went public in 1986 and Oracle reached revenue of \$55 million.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>In 1990 Oracle began to post losses and saw its market capitalization fall by 80\%.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Ellison refocused the company, fired many of the senior managers and replaced them with more experienced hires while he focused more upon product development.\autocite[113]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>The Oracle 7 database management system released in 1992 took the industry by storm as Oracle's profits shot up by 76\% within a single quarter.\autocite[114]{finkle2012larry}
+<EarlyHistory,Oracle,LarryEllison>Oracle grew rapidly and began to acquire many other business software vendors, spending more than \$25 billion in just 36 months.\autocite[114]{finkle2012larry}
+<MarketBehavior,Oracle>The software industry was a labour intensive business with few barriers to entry.\autocite[115]{finkle2012larry}
+<MarketBehavior,Oracle>The engineers and developers working for Oracle were essential for building the company's software products and maintaining its support contracts.\autocite[115]{finkle2012larry}
+<MarketBehavior>The high profit potential of the software business tends to attract many new entrants.\autocite[]{finkle2012larry}
+<EarlyHistory,Oracle>Oracle maintains its strong position in the market partly by aggressively buying out smaller competitors.\autocite[]{finkle2012larry}
+<MarketBehavior,Oracle>Oracle faces competition both from large vendor's such as IBM and Microsoft that offer broadly similar enterprise software products, as well as smaller rivals offering substitute services.\autocite[]{finkle2012larry}
+<MarketBehavior,Oracle,MarketCharacteristics>Although their is still substantial room for growth, the technology industry is arguably at a stage of relative maturity with industry giants like Oracle and Microsoft commanding immense market capitalizations.\autocite[]{finkle2012larry}
+<MarketCharacteristics,MarketBehavior>Their exists high switching costs in the market for enterprise software solutions.\autocite[]{finkle2012larry}
+<Oracle>Oracle dominates the relational database management systems business with 48\% market share, far more than any of its rivals.\autocite[]{finkle2012larry}
+<SaaS,Cloud>Cloud based Software as a Service companies like Salsesforce.com can provide powerful business tools with relatively low administrative and licensing costs, which has helped enable salesforce.com's robust 40\% annual growth.\autocite[]{HorizontalPlaysTechnology}
+<MarketBehavior>Software companies are often valued based upon forward revenue leading to inflated price to earnings ratios, and particularly popular firms such as Tableau, an analytics firm, can have high valuations even with respect to forward revenue.\autocite[]{HorizontalPlaysTechnology}
+<Patent>Erecting some kind of moat around core business technologies can dramatically improve a company's long-term prospects.\autocite[]{HorizontalPlaysTechnology}
+<Patent>This sort of protection can be achieved through patents, network effects, or differentiation, but without some sort of barrier a company's business will remain vulnerable with the ever changing landscape of the software industry.\autocite[]{HorizontalPlaysTechnology}
+<MarketCharacteristics,Cloud>The rise of cloud computing has made it far easier for the consumers of enterprise software products to try out different products and shop between competing vendors before making a potentially risky deal.\autocite[29]{LiquidLunch}
+<MarketCharacteristics,Cloud>As a result vendors are forced to compete more upon substance.\autocite[29]{LiquidLunch}. This change has been reflected amongst the ranks of salesmen who have seen a dramatic growth in wage disparity between the most and least successful representatives as those with technical knowledge of their products have come into much higher demmand.\autocite[30]{LiquidLunch}
+<MarketCharacteristics>\autocite[]{LiquidLunch}
+<Mobile>The rise of smartphones has seen the creation of App Stores turning most popular mobile devices into software distribution platforms.\autocite[]{TheAppEconomy}
+<Mobile>These app stores have seen some remarkable successes as app makers producing everything from small games to enterprise products such as those os salesforce.com.\autocite[45]{TheAppEconomy}
+<Statistics>\wrapfig{InternetSoftwareMarketCap}{r}{.5}{Internet software sector market capitaliztion\autocite[20]{IndustrySurveysInternet}}
+<Statistics>\wrapfig{priceChart}{r}{.5}{Internet software sector performance relative to S\&P 500\autocite[25]{IndustrySurveysInternet}}
+<Statistics>\wrapfig{PESoftwareInternet}{r}{.5}{Internet software sector price to earnings ratios\autocite[26]{IndustrySurveysInternet}}
+<MarketBehavior,Competition>The internet software industry is overall extremely dynamic, but several large companies have manage to carve out dominant positions within the industry, such as Google with search and Facebook with social media.\autocite[34]{IndustrySurveysInternet}
+<Competition>The internet software sector is in fact relatively concentrated with just three companies accounting for 83\% of revenues.\autocite[34]{IndustrySurveysInternet}
+<Competition>Larger companies can attract more talented employees, invest more in research and developing new products, as well as buy out smaller rivals; thus applying pressure on the market to consolidate.\autocite[34]{IndustrySurveysInternet}
+<Competition>\wrapfig{TopInternetRevenues}{r}{.5}{The top few players dominate the internet software sector\autocite[35]{IndustrySurveysInternet}
+<Competition>It is very easy to begin an internet software business, but it usually takes a few years before a company begins to gain traction.\autocite[35]{IndustrySurveysInternet}
+<Privacy,Government>By some accounts national security agencies may have actually been directly undermining encryption protocols in order to facilitate data collection.\autocite[]{CrackedCredibility}
+<Privacy,Government>This undermines the web of trust that underpins the internet and allows for everything from secure communications to online banking.\autocite[]{CrackedCredibility}
+<Privacy,Government>The NSA has been known to make highly suspect recommendations when it comes to cryptographic technology. In 2006 the agency promoted a random number generating device that suffered terrible performance and was latter found to suffer from serious security flaws.\autocite[]{CrackedCredibility}
+<Privacy,Government>Backdoors such as these are risky and controversial since they could potentially be exploited by anyone, not just intelligence agencies, and of course privacy advocates would not be satisfied with having anyone spy on private communications.\autocite[]{CrackedCredibility}
+<Privacy,Government>American software firms have suffered as a result of Snowden's disclosures regarding the extent of American's spying operation as it fuels protectionism abroad and has led foreign business to regard American companies with suspicion with potential losses measuring in the tens of billions.\autocite[]{CrackedCredibility}
+<Privacy,Government>\autocite[]{CrackedCredibility}
+<General>The internet will reach 50\% of the worlds population in 2015.\autocite[]{ITSoftwareEconomist}
+<General>The software industry remains dominated by the United Sates which not only accounts for a dominant share of the global market, but also for much of its growth as well.\autocite[]{ITSoftwareEconomist}
+<Cloud,Oracle>There are suspicions that a merger may be brewing between Oracle and salesforce.com as the two are viewed to have broadly complimentary business.\autocite[]{Munchy}
+<Oracle,Cloud>Oracle's cloud base business offerings still only account for 7\% of total revenue.\autocite[]{OracleNoGrowth}
+<Oracle,Cloud>Oracle has seen its other business stagnate and decline in the meanwhile.\autocite[]{OracleNoGrowth}
+<Pricacy,Cloud,Government>Google has seen a 45\% rise in the number of accounts security agencies have requested access to over the past year.\autocite[]{DataRequests}
+<Pricacy,Government>Apple CEO Tim Cook has taken a strong stance on encrypted communication publicly declaring his opposition to any efforts to insert back doors into encryption protocols.\autocite[]{StrongEncryption}
+<>\autocite[]{ProductsServicesInternetEra}
+<>\autocite[]{GlobalInternet&Software}
+<MarketBehavior>Mergers and Acquisitions are an important part of business in any industry and software is no exception.\autocite[421]{schief2013mergers}
+<MarketBehavior>M\&As tend to come in waves focused upon particular industries usually when firms are experiencing high liquidity within a profitable industry.\autocite[421]{schief2013mergers}
+<MarketBehavior>In fact the software industry is unusually prolific ranking second out of 49 industries in the United States.\autocite[421]{schief2013mergers}
+<MarketBehavior>Since network-effects tend to play a significant role in the software industry their is strong pressure for firms to consolidate in order to gain greater competitive advantage over their rivals.\autocite[422]{schief2013mergers}
+<MarketBehavior>In the long term this means that software markets tend to develop oligopolistic or monopolistic structures with most of the market share and power focused within just a few large firms.\autocite[422]{schief2013mergers}
 
 
-
-Undone:
-<>\autocite[]{HorizontalPlaysTechnology}
-
+<
+<MarketBehavior,Oracle>\autocite[]{finkle2012larry} %more!!!
+<MarketBehavior>\autocite[]{schief2013mergers} %more!!!!
+<>\autocite[]{}
+<>\autocite[]{}
+>
 
 Outline:
 -Intro
@@ -168,13 +207,25 @@ Outline:
     -
 -Historical Background
     -Prehistory (unified software and hardware)
-    -Open source movements historical claims
-    -Early development of companies like Microsoft and Oracle
+        -Open source movements historical claims
+        -Early development of companies like Microsoft and Oracle
     -Market tendency towards consolidation
     -Rise of the internet
     -Current trends towards cloud computing
 -Competition and Competitive Outlook
+    -The nature of the industry and the way firms structure themselves
+        -Interdependent firms tend to be more exploitative
+        -Transaction costs tend to decide how business are split up
+    -Low barriers to entry help create more competition within the market
+    -
 -Government Involvement
+    -Government is not particularly involved in the software industry
+        -No significant anti-trust activities have ever come to a final conclusion
+    -Government has tried to regulate in so far as national security is at stake
+        -
 -Industry Fundamentals
+    -Different licencing strategies
+    -Importance of intellectual property
+    -Ever changing nature of the competitive environment
 -Conclusion
-
+    -
