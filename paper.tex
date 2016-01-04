@@ -16,22 +16,26 @@
     \lhead{Benjamin Ojeda}
     \rhead{#1}
     \author{#2}
-    \date{2015-12-23}
+    \date{2016-01-07}
     \maketitle
 }
 
-%Arguments #1=image #2=location #3=width #4=caption #5=label
+\definecolor{shadecolor}{rgb}{0.8,0.8,0.5}
+
+%Arguments #1=image #2=location #3=width #4=caption
 \newcommand{\wrapfig}[5]
 {
     \begin{wrapfigure}{#2}{#3\textwidth}
-        \vspace{-20pt}
-        \begin{center}
-            \includegraphics[width=#3\textwidth]{#1}
-        \end{center}
-        \vspace{-20pt}
-        \caption{#4}
-        \label{#5}
-        \vspace{-10pt}
+	\begin{shaded}
+%            \vspace{-20pt}
+            \begin{center}
+                \includegraphics[width=\textwidth]{#1}
+            \end{center}
+%            \vspace{-20pt}
+            \caption{#4}
+            \label{fig:#1}
+%            \vspace{-10pt}
+        \end{shaded}
     \end{wrapfigure}
 }
 
@@ -42,7 +46,7 @@
         \centering
         \includegraphics[scale=#3]{#1}
         \caption{#4}
-        \label{#5}
+        \label{fig:#1}
     \end{figure}
 }
 

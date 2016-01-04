@@ -1,7 +1,7 @@
 \usepackage{graphicx} %Recomended, allows including images
 %\usepackage{turabian-formatting}
 %\usepackage[notes,backend=biber,autocite=footnote]{biblatex-historian} %Turabian bibliography
-\usepackage[notes,backend=biber,autocite=footnote, isbn=false]{biblatex-chicago} %Chicago bibliography
+\usepackage[notes,backend=biber,autocite=footnote,sorting=nty,isbn=false]{biblatex-chicago} %Chicago bibliography
 %\usepackage[authordate,backend=biber]{biblatex-chicago}
 %\usepackage[authordate-trad,backend=biber]{biblatex-chicago}
 \usepackage[american]{babel} %Dependency for biber
@@ -11,6 +11,9 @@
 \usepackage{geometry} %Optional, helps define document spacing
 \usepackage{setspace} %Optional, allows fine-tune space control
 \usepackage{wrapfig}
+%\usepackage{shaded}
+\usepackage{color}
+\usepackage{framed}
 %\usepackage{mathtools} %Recommended, helps in typesetting math
 %\usepackage{tikz} %Optional, allows specifying svg diagrams in latex
 %\usepackage{multicol} %Optional
@@ -32,7 +35,7 @@
 This style requires a very particular build process in order to generate the complete pdf. This requires multiple command line inputs and depends on several other texlive packages.  The default biblatex-chicago requires the project to first build by invoking biber (which I used in place of biblatex) on the main paper document with "biber paper" then "biber researchPaper".  This builds all of the bibliography fiels needed to build the main pdf using "pdflatex paper.tex"
 \fi
 
-
+\iffalse
 \DeclareSortingScheme{nymdt}{
   \sort{
     \field{presort}
@@ -49,3 +52,4 @@ This style requires a very particular build process in order to generate the com
     \field{title}
   }
 }
+\fi
