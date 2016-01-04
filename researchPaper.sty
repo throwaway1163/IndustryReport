@@ -1,5 +1,7 @@
 \usepackage{graphicx} %Recomended, allows including images
-\usepackage[notes,backend=biber,autocite=footnote]{biblatex-chicago} %Chicago bibliography
+%\usepackage{turabian-formatting}
+%\usepackage[notes,backend=biber,autocite=footnote]{biblatex-historian} %Turabian bibliography
+\usepackage[notes,backend=biber,autocite=footnote, isbn=false]{biblatex-chicago} %Chicago bibliography
 %\usepackage[authordate,backend=biber]{biblatex-chicago}
 %\usepackage[authordate-trad,backend=biber]{biblatex-chicago}
 \usepackage[american]{babel} %Dependency for biber
@@ -17,6 +19,7 @@
 %\usepackage{tabu} %Optional, allows for crude native table support
 
 \pagestyle{fancy} %Necessary for fancyhdr
+\setlength{\headheight}{15pt}
 \geometry{margin=1in} %Requires the geometry package
 \doublespacing %Requires setspace
 
@@ -28,3 +31,21 @@
 \iffalse
 This style requires a very particular build process in order to generate the complete pdf. This requires multiple command line inputs and depends on several other texlive packages.  The default biblatex-chicago requires the project to first build by invoking biber (which I used in place of biblatex) on the main paper document with "biber paper" then "biber researchPaper".  This builds all of the bibliography fiels needed to build the main pdf using "pdflatex paper.tex"
 \fi
+
+
+\DeclareSortingScheme{nymdt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort{
+    \name{sortname}
+    \name{author}
+    \name{editor}
+    \name{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+}
