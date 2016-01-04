@@ -22,32 +22,37 @@
 
 \definecolor{shadecolor}{rgb}{0.8,0.8,0.5}
 
-%Arguments #1=image #2=location #3=width #4=caption
+%Arguments #1=image #2=location #3=width #4=caption #5=citation
 \newcommand{\wrapfig}[5]
 {
     \begin{wrapfigure}{#2}{#3\textwidth}
-	\begin{shaded}
+        \vspace{-30pt}
+        \begin{shaded}
 %            \vspace{-20pt}
             \begin{center}
                 \includegraphics[width=\textwidth]{#1}
             \end{center}
-%            \vspace{-20pt}
-            \caption{#4}
+            \vspace{-20pt}
+            \caption{#4{\footnotemark}}
             \label{fig:#1}
 %            \vspace{-10pt}
         \end{shaded}
+%        \footnotetext{\footnotemark}
+        \vspace{-30pt}
     \end{wrapfigure}
+    \footnotetext{#5}
 }
 
-%Arguments #1=image #2=location #3=width #4=caption
+%Arguments #1=image #2=location #3=width #4=caption #5=citation
 \newcommand{\fig}[5]
 {
     \begin{figure}[#2]
         \centering
         \includegraphics[scale=#3]{#1}
-        \caption{#4}
+        \caption{#4{\footnotemark}}
         \label{fig:#1}
     \end{figure}
+    \footnotetext{#5}
 }
 
 \titlesection{Software Industry Report}{Benjamin Ojeda}
