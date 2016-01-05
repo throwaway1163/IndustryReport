@@ -20,8 +20,6 @@
     \maketitle
 }
 
-\definecolor{shadecolor}{rgb}{0.8,0.8,0.5}
-
 %Arguments #1=image #2=location #3=width #4=caption #5=citation
 \newcommand{\wrapfig}[5]
 {
@@ -41,36 +39,42 @@
 }
 
 %Arguments #1=image #2=width #3=caption #4=citation
-\newcommand{\fig}[5]
+\newcommand{\fig}[4]
 {
-    \begin{center}
-        \includegraphics[scale=#2]{#1}\\
-    \begin{figure}[H]
-        #3
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[scale=#2]{#1}
+        \caption{#3\footnotemark}
         \label{fig:#1}
     \end{figure}
-    #4
-    \end{center}
+    \footnotetext{#4}
 }
 
 \titlesection{Software Industry Report}{Benjamin Ojeda}
 
+\section*{Introduction}
 \input{./Subsections/intro}
 
+\section*{Historical Background}
 \input{./Subsections/historicalBackground}
 
+\section*{Competition}
 \input{./Subsections/competition}
 
+\section*{Government Invovlment}
 \input{./Subsections/governmentInvolvement}
 
+\section*{Industry Fundementals}
 \input{./Subsections/industryFundementals}
 
+\section*{Conclusion}
 \input{./Subsections/conclusion}
+\clearpage
 
-\singlespacing
-
+\newpage
 \input{./Subsections/appendix}
 
+\singlespacing
 \nocite{*}
 \printbibliography
 
