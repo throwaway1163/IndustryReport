@@ -28,11 +28,11 @@
     \begin{wrapfigure}{#2}{#3\textwidth}
         \label{fig:#1}
         \vspace{-22pt}
-        \begin{tcolorbox}[left=2mm,right=2mm,top=2mm,bottom=2mm,colback=blue!5!white,colframe=blue!75!black]
+        \begin{tcolorbox}[left=2mm,right=2mm,top=2mm,bottom=2mm,colback=blue!6!white,boxrule=.2mm,colframe=blue!75!black,arc=0pt,outer arc=0pt]
             \centering
             \includegraphics[width=\textwidth]{#1}
-            \vspace{-40pt}
-            \caption{#4\footnotemark}
+            \vspace{-30pt}
+            \caption{#4\protect\footnotemark}
             %\vspace{-18pt}
         \end{tcolorbox}
         \vspace{-22pt}
@@ -43,16 +43,14 @@
 %Arguments #1=image #2=width #3=caption #4=citation
 \newcommand{\fig}[5]
 {
-    \vspace{6mm}
-    \begin{figure}[!ht]
     \begin{center}
         \includegraphics[scale=#2]{#1}\\
-        \caption{#3\footnotemark}
+    \begin{figure}[H]
+        #3
         \label{fig:#1}
-    \end{center}
     \end{figure}
-    \footnotetext{#4}
-    \vspace{6mm}
+    #4
+    \end{center}
 }
 
 \titlesection{Software Industry Report}{Benjamin Ojeda}
