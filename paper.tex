@@ -26,19 +26,17 @@
 \newcommand{\wrapfig}[5]
 {
     \begin{wrapfigure}{#2}{#3\textwidth}
-        \vspace{-30pt}
-        \begin{shaded}
-%            \vspace{-20pt}
+        \label{fig:#1}
+        \vspace{-22pt}
+        \begin{tcolorbox}[left=2mm,right=2mm,top=2mm,bottom=2mm,colback=blue!5!white,colframe=blue!75!black]
             \begin{center}
                 \includegraphics[width=\textwidth]{#1}
+                \vspace{-40pt}
+                \caption{#4\footnotemark}
             \end{center}
-            \vspace{-20pt}
-            \caption{#4{\footnotemark}}
-            \label{fig:#1}
-%            \vspace{-10pt}
-        \end{shaded}
-%        \footnotetext{\footnotemark}
-        \vspace{-30pt}
+            \vspace{-18pt}
+        \end{tcolorbox}
+        \vspace{-22pt}
     \end{wrapfigure}
     \footnotetext{#5}
 }
@@ -49,7 +47,7 @@
     \begin{figure}[#2]
         \centering
         \includegraphics[scale=#3]{#1}
-        \caption{#4{\footnotemark}}
+        \caption{#4\footnotemark}
         \label{fig:#1}
     \end{figure}
     \footnotetext{#5}
