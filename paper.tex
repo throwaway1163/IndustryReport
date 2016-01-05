@@ -41,16 +41,19 @@
     \footnotetext{#5}
 }
 
-%Arguments #1=image #2=location #3=width #4=caption #5=citation
+%Arguments #1=image #2=width #3=caption #4=citation
 \newcommand{\fig}[5]
 {
-    \begin{figure}[#2]
-        \centering
-        \includegraphics[scale=#3]{#1}
-        \caption{#4\footnotemark}
+    \vspace{6mm}
+    \begin{figure}[!ht]
+    \begin{center}
+        \includegraphics[scale=#2]{#1}\\
+        \caption{#3\footnotemark}
         \label{fig:#1}
+    \end{center}
     \end{figure}
-    \footnotetext{#5}
+    \footnotetext{#4}
+    \vspace{6mm}
 }
 
 \titlesection{Software Industry Report}{Benjamin Ojeda}
