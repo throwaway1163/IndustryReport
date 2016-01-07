@@ -25,8 +25,8 @@ Software markets tend to eventually create monopolies, that is to say that the f
 Microsoft is a good example of a company that quickly rose to monopolistic heights with MS-DOS, coming to almost completely dominate the desktop market.\autocite[4]{buxmann2012software}
 
 \wrapfig{increasingReturns}{r}{.4}{Path dependent outcome}{\autocite[25]{buxmann2012software}}
-Since the software industry is not dependent on any material resources it is not beholden to powerful suppliers.
-However, the S\&PCapital IQ suggest that software companies instead compete over another type of limited resource -- skilled developers -- and that smaller companies are at a disadvantage with regards to acquiring and retaining capable employees.\autocite[39]{SurveysSoftware2015}
+Since the software industry is not dependent on any material resources, it is not beholden to powerful suppliers.
+However, the S\&P Capital IQ suggest that software companies instead compete over another type of limited resource -- skilled developers -- and that smaller companies are at a disadvantage with regards to acquiring and retaining capable employees.\autocite[39]{SurveysSoftware2015}
 Larger companies can attract more talented employees, invest more in research and developing new products, as well as buy out smaller rivals; thus applying further pressure on the market to consolidate.\autocite[34]{IndustrySurveysInternet}
 
 It is a widely accepted economic fact that one of the most important ways a firm can gain competitive advantage is through innovating and introducing new products.
@@ -38,33 +38,40 @@ Erecting some kind of barrier around core business technologies can dramatically
 This sort of protection can be achieved through patents, network effects, or differentiation, but without some sort of barrier a company's business will remain vulnerable with the ever changing landscape of the software industry.\autocite[]{HorizontalPlaysTechnology}
 Companies can also engage in preemptive patenting, aimed at trying to blockade potential competitors from infringing on their market.\autocite[83]{ceccagnoli2007appropriability}
 
-Open source projects operate very differently from the traditional for-profit centrally directed organizational model of commercial software.
+Open source software is also a significant part of the competitive landscape of the software industry.
+There were almost one billion lines of source code released publicly and freely available online in 2010 offering a compelling alternative to propeitary solutions in many software segments.\autocite[]{OptimismInnovation}
+Some industry analysts believe that the open source development process ultimately leads to better code than proprietary alternatives.\autocite[]{OptimismInnovation}
 Projects are sustained by an international community of volunteer developers who pool their efforts to produce software.\autocite[191]{buxmann2012software}
 Many open source projects are controlled by their founder who usually functions as the maintainer and retains the authority to decide whether or not to add other developers' work to the mainline project.
-If the community grows dissatisfied with the maintainer the project can be forked and development continues under a new banner.
+If the community grows dissatisfied with the maintainer, the project can be forked (the publicly available source code is copied to form a new project) and development continues under a new banner.
 Since the individual developers are volunteers who decide how to spend their own time small projects start and stop frequently as their developers move on to other things.\autocite[197]{buxmann2012software}
 The opportunity costs in terms of time and effort inherent to contributing effort towards Open source are obvious, which raises the question of why anyone would do it.
-Most contributers fall into one of two broad catagories, rent-seekers who work in the hopes of raising their profile, gaining experience, and adding lines to the resume, and donators who work to contribute to the strength of the Open Source ecosystem.\autocite[198]{buxmann2012software}
-Open Source projects are often published under copyleft licenses such as GPL which require the source code to always be made available and for any derivatives works to be published under similar terms.
-This creates an inducement for donators to contribute code since they can be confident that their work will remain open source, and it forces organizations that make use of the work to push their contributions and changes back to the community.\autocite[198]{buxmann2012software}
-Work by individual contributors to the Linux kernel is at an all time low with only 5.8\% of the changes coming from unpaid volunteers.\autocite[]{KernelDevelopment2015}
-\wrapfig{kernelDevelopment}{r}{0.5}{Top contributers to the 4.3 Linux Kernel}{\autocite[]{KernelDevelopment2015}}
-Red Hat is another interesting player given that they have long been at the center of the open source movement and have managed to act like a sort of curator for open source technology.\autocite[]{OptimismInnovation}
-There were almost one billion lines of source code released publicly and freely available online in 2010.\autocite[]{OptimismInnovation}
-Red Hat has built there entire business around software that can be freely copied by their competitors, and as a result has minimal switching costs.
-Yet Red Hat's revenues continue to grow considerably faster than overall IT spending.\autocite[]{OptimismInnovation}
-Some industry analysts believe that the open source development process ultimately leads to better code than proprietary alternatives.\autocite[]{OptimismInnovation}
+Most contributers fall into one of two broad catagories, rent-seekers who work in the hopes of raising their profile, gaining experience, and adding lines to the resume, and donors who work to contribute to the strength of the open source ecosystem.\autocite[198]{buxmann2012software}
 
-\begin{center}
-\resizebox{\textwidth}{!}{
-\begin{tabular}{| c | c | c | c | c | c |} \hline
+\wrapfig{kernelDevelopment}{r}{0.5}{Top contributers to the 4.3 Linux Kernel}{\autocite[]{KernelDevelopment2015}}
+Open source projects are often published using ``copyleft'' licenses such as GPL (GNU General Public License) which require that derivative works source code always be made available and for any to be published under similar terms.
+This creates an inducement for donors to contribute code since they can be confident that their work will remain open source, and it forces organizations that make use of the work to push their contributions and changes back to the community.\autocite[198]{buxmann2012software}
+By forcing users to contribute back to the project these copyleft licenses also help avert the so called ``tragedy of the commons'' where individual rational business would prefer to control as much of their intelectual property as possible, allowing the original project -- itself a shared resource -- to grow obsolete and unmaintained.
+Benefit from the intelectual proproperty of the project but have no incentive to contribute to a shared resource that could potentially benefit their competitors in the future.
+Large projects are usually sustained not by volunteers but by for-profit business seeking to add their own extensions to an existing project for their own benefit.
+In fact, work by individual contributors to famous projects such as the Linux kernel is at an all time low with only 5.8\% of the changes in the past year coming from unpaid volunteers.\autocite[]{KernelDevelopment2015}
+
+%Change!!!!!!!!!!!!!!!!!!!!!!!!
+
+Red Hat is another interesting player given that they have long been at the center of the open source movement and have managed to act like a sort of curator for open source technology.\autocite[]{OptimismInnovation}
+Red Hat has built their entire business around software that can be freely copied by their competitors, and as a result has minimal switching costs.
+Yet Red Hat's revenues continue to grow considerably faster than overall IT spending.\autocite[]{OptimismInnovation}
+
+\iffalse
+\begin{minipage}{\textwidth}
+\begin{tabu}{| l | c | c | c | c | c |} \hline
     Market & Linux Kernel Based & Unix \& BSD & Windows & iOS \& OS X \\ \hline
     Supercomputers\autocite{Top500} & 98.8\% & 1.2\% & N/A & N/A \\ \hline
-    Total Device Shipments in 2014 (Thousands)\autocite{Gartner} & 1,156,111 (Android) & N/A & 333,358 & 262,615 \\ \hline
+    Device Shipments\autocite{Gartner} & 1,156,111 (Android) & N/A & 333,358 & 262,615 \\ \hline
     Web Servers\autocite{W3Cook} & 96.3\% & 1.7\% & 1.8\% &  N/A \\ \hline
-    Web Servers\autocite{W3Techs} & N/A & 67.8\% (includes linux) & 32.2\% & N/A \\ \hline
-\end{tabular}
-}
-\end{center}
+    Web Servers\autocite{W3Techs} & N/A & 67.8\% \emph{incl. linux} & 32.2\% & N/A \\ \hline
+\end{tabu}
+\end{minipage}
+\fi
 
 \ref{fig:webServerMarketShare}
